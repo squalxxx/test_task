@@ -15,6 +15,11 @@ function popupPdInFb() {
     popupFb.classList.toggle("show");
 }
 
+function burgerShow() {
+    var burger = document.getElementById("burger");
+    burger.classList.toggle("show");
+}
+
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
